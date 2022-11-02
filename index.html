@@ -16,28 +16,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f946c762a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <a href="index.html"><img src="IMG/logo.png" alt="Logo" width="100px"></a>
-            </div>
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li>PROPUESTAS GASTRONOMICAS</li>
-                <ul class="sub_li">
-                    <li><a href="PAGES/restaurantes.html">RESTAURANTES</a></li>
-                    <li><a href="PAGES/bares.html">BARES</a></li>
-                    <li><a href="PAGES/cafeterias.html">CAFETERIA</a></li>
-                </ul>
-                <li><a href="PAGES/quienes_somos.html">QUIENES SOMOS</a></li>
-                <li><a href="PAGES/contacto.html">SUMA TU EXPERIENCIA</a></li>
+            <ul class="flex-container">
+                <div class="logo">
+                    <a href="index.html"><img src="IMG/logo.png" alt="Logo" width="100px"></a>
+                </div>
+                <li class="flex-item"><a href="index.html"><i class="fa-solid fa-house"></i> INICIO</a></li>
+                <li class="flex-item__dif"><i class="fa-sharp fa-solid fa-utensils"></i> GASTRONOMIA
+                    <ul class="menu-vertical">
+                        <li class="item-menu-vertical"><a href="PAGES/restaurantes.html"><i class="fa-solid fa-shop"></i> RESTAURANTES</a></li>
+                        <li class="item-menu-vertical"><a href="PAGES/bares.html"><i class="fa-solid fa-martini-glass-citrus"></i> BARES</a></li>
+                        <li class="item-menu-vertical"><a href="PAGES/cafeterias.html"><i class="fa-solid fa-mug-hot"></i> CAFETERIA</a></li>
+                    </ul>
+                </li>
+                <li class="flex-item"><a href="PAGES/quienes_somos.html"><i class="fa-solid fa-address-card"></i> QUIENES SOMOS</a></li>
+                <li class="flex-item"><a href="PAGES/contacto.html"><i class="fa-solid fa-pen"></i> SUMA TU EXPERIENCIA</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <h1>Mi barrio, Villa Urquiza</h1>
         <img class="img_mapa" src="IMG/mapa.png" alt="Locacion Villa Urquiza">
@@ -49,12 +50,17 @@
         <section>
             <div>
                 <ul class="liLinks">
-                    <li><a href="#linkPregunta"><img src="./IMG/arrow.png" alt="flecha" width="40px">¿Porqué elegir Villa Urquiza?</a></li>
-                    <li><a href="#linkEspaciosVerdes"><img src="./IMG/arrow.png" alt="flecha" width="40px">Espacios verdes</a></li>
-                    <li><a href="#linkAccesosYComodidad"><img src="./IMG/arrow.png" alt="flecha" width="40px">Accesos y comodidad</a></li>
+                    <li><a href="#linkPregunta"><img src="./IMG/arrow.png" alt="flecha" width="40px">¿Porqué elegir
+                            Villa Urquiza?</a></li>
+                    <li><a href="#linkEspaciosVerdes"><img src="./IMG/arrow.png" alt="flecha" width="40px">Espacios
+                            verdes</a></li>
+                    <li><a href="#linkAccesosYComodidad"><img src="./IMG/arrow.png" alt="flecha" width="40px">Accesos y
+                            comodidad</a></li>
                     <li><a href="#linkSeguridad"><img src="./IMG/arrow.png" alt="flecha" width="40px">Seguridad</a></li>
-                    <li><a href="#linkEntretenimiento"><img src="./IMG/arrow.png" alt="flecha" width="40px">Entretenimiento</a></li>
-                    <li><a href="#linkOtrosColores"><img src="./IMG/arrow.png" alt="flecha" width="40px">Otros datos de color</a></li>
+                    <li><a href="#linkEntretenimiento"><img src="./IMG/arrow.png" alt="flecha"
+                                width="40px">Entretenimiento</a></li>
+                    <li><a href="#linkOtrosColores"><img src="./IMG/arrow.png" alt="flecha" width="40px">Otros datos de
+                            color</a></li>
                 </ul>
             </div>
         </section>
