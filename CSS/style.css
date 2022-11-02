@@ -88,10 +88,6 @@ nav a {
     text-shadow: none;
 }
 
-/*.item-menu-vertical:hover {
-    background-color: #0005;
-}*/
-
 .item-menu-vertical:active {
     color: #333;
 }
